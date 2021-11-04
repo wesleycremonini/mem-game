@@ -11,9 +11,16 @@ export const Grid = styled.div`
 
 export const Wrapper = styled.div`
     text-align: center;
+    
     .finished {
         font-size: 2em;
         color: red;
+    }
+    .btn-start {
+        background-color: red;
+        font-size: 2em;
+        border-radius: 5px;
+        color: white;
     }
 `;
 

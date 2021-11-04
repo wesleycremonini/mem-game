@@ -12,5 +12,6 @@ export const CardComp = styled.div`
     border-radius: 10px;
     h1 {
         display: none;
+        color: red;
     }
 `;

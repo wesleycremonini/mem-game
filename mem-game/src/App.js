@@ -80,7 +80,7 @@ function App() {
         parent.appendChild(parent.children[Math.random() * i | 0]);
     };
     setStarted(true);
-  }
+  };
 
   useEffect(() => {
     if (cardClickCounter == 2) {
@@ -100,11 +100,11 @@ function App() {
   return (
     <Wrapper>
       <p className='finished'>{minutes}:{seconds}</p>
-      <button className='started' onClick={() => Start()} >Start!</button>
+      <button className='started btn-start' onClick={() => Start()} >Start!</button>
       <p className='started'>Find the matching cards.</p>
       {finish ? 
         <>
-          <h1 className='finished'>YOU WIN!</h1> 
+          <h1 className='finished btn-start'>YOU WIN!</h1> 
           <button onClick={() => window.location.reload()}>Play Again?</button>
         </> :
       <Grid id='grid'>
