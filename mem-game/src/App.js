@@ -108,10 +108,10 @@ function App() {
           <button onClick={() => window.location.reload()}>Play Again?</button>
         </> :
       <Grid id='grid'>
-          {CardList.map(card => (
-            <Card click={cardClick} ID={card.id} key={card.id} classN={card.class}>{card.icon}</Card>
-          ))}
-        </Grid>
+        {CardList.map(card => (
+          <Card click={cardClick} ID={card.id} key={card.id} classN={card.class}>{card.icon}</Card>
+        ))}
+      </Grid>
       }
       <Dashboard>
         <h1>Results Dashboard:</h1>
