@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mem-game/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/mem-game/static/js/main.9945b3eb.chunk.js",
-    "main.js.map": "/mem-game/static/js/main.9945b3eb.chunk.js.map",
+    "main.js": "/mem-game/static/js/main.8e1aa8d3.chunk.js",
+    "main.js.map": "/mem-game/static/js/main.8e1aa8d3.chunk.js.map",
     "runtime-main.js": "/mem-game/static/js/runtime-main.a4b255e2.js",
     "runtime-main.js.map": "/mem-game/static/js/runtime-main.a4b255e2.js.map",
     "static/js/2.6e11e977.chunk.js": "/mem-game/static/js/2.6e11e977.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a4b255e2.js",
     "static/js/2.6e11e977.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9945b3eb.chunk.js"
+    "static/js/main.8e1aa8d3.chunk.js"
   ]
 }
